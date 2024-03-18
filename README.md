@@ -25,7 +25,6 @@ The Freifunk API is designed to collect metadata of communities in a decentral w
 ## Contribute
 
 Most of the scripts are written in PHP and Python, and could be executed in a terminal. Feel free to clone the repo, make changes and send us Pull Requests.
-
 ## Requirements
 
 * `directory.json` (collector/collectCommunities.py)
@@ -33,3 +32,10 @@ Most of the scripts are written in PHP and Python, and could be executed in a te
 * Software version :
   * PHP : >= 5.4
   * Python : >= 3.4
+## Steps to Set-up the repository in your local machine:
+* Create a 'data' directory in the ics-collector
+* In terminal run 'ics-updater.php' in lib of ics-collector in ics-directory
+* In terminal run 'ics-collector.php' in ics-collector directory
+* In terminal run 'php -S localhost:8000' and go to you browser and download the ics-file from 'http://localhost:8000/CalendarAPI.php?source=all&format=ics&from=now'
+And with these steps download and feel free to contribute to common.api.freifunk.net
+Be sure to follow linux sub system if using windows !!!
